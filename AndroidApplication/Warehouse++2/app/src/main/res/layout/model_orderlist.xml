@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/l_coid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order ID : "
+        android:padding="3dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:id="@+id/coid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:padding="3dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_toRightOf="@+id/l_coid"
+        android:layout_toEndOf="@+id/l_coid"
+        />
+    <TextView
+        android:id="@+id/l_dtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date : "
+        android:layout_below="@id/l_coid"
+        android:padding="3dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/dtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/coid"
+        android:layout_toRightOf="@+id/l_dtime"
+        android:layout_toEndOf="@+id/l_dtime"
+        android:text="Name"
+        android:padding="3dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <TextView
+        android:id="@+id/l_ocom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Customer name : "
+        android:layout_below="@id/dtime"
+        android:padding="3dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/ocom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dtime"
+        android:layout_toRightOf="@id/l_ocom"
+        android:layout_toEndOf="@id/l_ocom"
+        android:layout_marginRight="30dp"
+        android:text="Name"
+        android:padding="3dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <TextView
+        android:id="@+id/l_ocname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Company name : "
+        android:layout_below="@id/l_ocom"
+        android:padding="3dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/ocname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ocom"
+        android:layout_toRightOf="@+id/l_ocname"
+        android:layout_toEndOf="@+id/l_ocname"
+        android:text="Name"
+        android:padding="3dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <TextView
+        android:id="@+id/l_pq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Products : "
+        android:layout_below="@id/l_ocname"
+        android:padding="3dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/pq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ocname"
+        android:layout_toRightOf="@+id/l_pq"
+        android:layout_toEndOf="@+id/l_pq"
+        android:text="Name"
+        android:padding="3dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>

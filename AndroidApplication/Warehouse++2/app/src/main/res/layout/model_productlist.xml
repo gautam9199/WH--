@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+   >
+    <TextView
+        android:id="@+id/l_pid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product ID : "
+        android:padding="3dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:id="@+id/pid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:padding="3dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_toRightOf="@+id/l_pid"
+        android:layout_toEndOf="@+id/l_pid"
+       />
+    <TextView
+        android:id="@+id/l_mNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Model No : "
+        android:layout_below="@id/l_pid"
+        android:padding="3dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/mNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pid"
+        android:layout_toRightOf="@+id/l_mNo"
+        android:layout_toEndOf="@+id/l_mNo"
+        android:text="Name"
+        android:padding="3dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <TextView
+        android:id="@+id/l_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Type : "
+        android:layout_below="@id/mNo"
+        android:padding="3dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mNo"
+        android:layout_toRightOf="@id/l_type"
+        android:layout_toEndOf="@id/l_type"
+        android:layout_marginRight="30dp"
+         android:text="Name"
+        android:padding="3dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <TextView
+        android:id="@+id/l_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Size : "
+        android:layout_below="@id/l_type"
+        android:padding="3dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/type"
+        android:layout_toRightOf="@+id/l_size"
+        android:layout_toEndOf="@+id/l_size"
+        android:text="Name"
+        android:padding="3dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <TextView
+        android:id="@+id/l_fin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Finish : "
+        android:layout_below="@id/l_size"
+        android:padding="3dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/fin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/size"
+        android:layout_toRightOf="@+id/l_fin"
+        android:layout_toEndOf="@+id/l_fin"
+        android:text="Name"
+        android:padding="3dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <TextView
+        android:id="@+id/l_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rate : "
+        android:layout_below="@id/l_fin"
+        android:padding="3dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fin"
+        android:layout_toRightOf="@+id/l_fin"
+        android:layout_toEndOf="@+id/l_fin"
+        android:text="Name"
+        android:padding="3dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <TextView
+        android:id="@+id/l_bsize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Box Size : "
+        android:layout_below="@id/l_rate"
+        android:padding="3dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/bsize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rate"
+        android:layout_toRightOf="@+id/l_bsize"
+        android:layout_toEndOf="@+id/l_bsize"
+        android:text="Name"
+        android:padding="3dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <TextView
+        android:id="@+id/l_pbq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Per Box Qunatity : "
+        android:layout_below="@id/l_bsize"
+        android:padding="3dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/pbq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bsize"
+        android:layout_toRightOf="@+id/l_pbq"
+        android:layout_toEndOf="@+id/l_pbq"
+        android:text="Name"
+        android:padding="3dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <TextView
+        android:id="@+id/l_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Quantity: "
+        android:layout_below="@id/l_pbq"
+        android:padding="3dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pbq"
+        android:layout_toRightOf="@+id/l_total"
+        android:layout_toEndOf="@+id/l_total"
+        android:text="Name"
+        android:padding="3dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:background="@drawable/background">
+
+    <Button
+        android:id="@+id/war"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Customers"
+        android:layout_centerInParent="true"
+        android:padding="20dp"
+        android:layout_margin="20dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/bg_button"
+        android:layout_above="@+id/product"/>
+
+    <Button
+        android:id="@+id/product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Products"
+        android:layout_centerInParent="true"
+        android:padding="20dp"
+        android:layout_margin="20dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/bg_button"/>
+    <Button
+        android:id="@+id/sales"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Sales"
+        android:layout_centerInParent="true"
+        android:padding="20dp"
+        android:layout_margin="20dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/bg_button"
+        android:layout_below="@+id/product"/>
+
+</RelativeLayout>

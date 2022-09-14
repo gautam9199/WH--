@@ -1,0 +1,103 @@
+c:\users\khanjan\documents\visual studio 2015\Projects\Warehouse++\Warehouse++\bin\Debug\Warehouse++.exe.config
+C:\Users\khanjan\documents\visual studio 2015\Projects\Warehouse++\Warehouse++\bin\Debug\Warehouse++.exe
+C:\Users\khanjan\documents\visual studio 2015\Projects\Warehouse++\Warehouse++\bin\Debug\Warehouse++.pdb
+C:\Users\khanjan\documents\visual studio 2015\Projects\Warehouse++\Warehouse++\obj\Debug\Warehouse__.Properties.Resources.resources
+C:\Users\khanjan\documents\visual studio 2015\Projects\Warehouse++\Warehouse++\obj\Debug\Warehouse++.csproj.GenerateResource.Cache
+C:\Users\khanjan\documents\visual studio 2015\Projects\Warehouse++\Warehouse++\obj\Debug\Warehouse++.exe
+C:\Users\khanjan\documents\visual studio 2015\Projects\Warehouse++\Warehouse++\obj\Debug\Warehouse++.pdb
+C:\Users\khanjan\documents\visual studio 2015\Projects\Warehouse++\Warehouse++\obj\Debug\Warehouse++.csprojResolveAssemblyReference.cache
+C:\Users\khanjan\documents\visual studio 2015\Projects\Warehouse++\Warehouse++\obj\Debug\Warehouse__.Mainpage.resources
+C:\Users\khanjan\documents\visual studio 2015\Projects\Warehouse++\Warehouse++\obj\Debug\Warehouse__.New_Customer.resources
+C:\Users\khanjan\documents\visual studio 2015\Projects\Warehouse++\Warehouse++\obj\Debug\Warehouse__.Welcome.resources
+C:\Users\khanjan\documents\visual studio 2015\Projects\Warehouse++\Warehouse++\obj\Debug\Warehouse__.Login_page.resources
+C:\Users\khanjan\documents\visual studio 2015\Projects\Warehouse++\Warehouse++\obj\Debug\Warehouse__.New_Order.resources
+C:\Users\khanjan\documents\visual studio 2015\Projects\Warehouse++\Warehouse++\obj\Debug\Warehouse__.New_Product.resources
+C:\Users\khanjan\documents\visual studio 2015\Projects\Warehouse++\Warehouse++\obj\Debug\Warehouse__.Order_List.resources
+C:\Users\khanjan\documents\visual studio 2015\Projects\Warehouse++\Warehouse++\obj\Debug\Warehouse__.Product_List.resources
+C:\Users\khanjan\documents\visual studio 2015\Projects\Warehouse++\Warehouse++\obj\Debug\Warehouse__.QRgenerator.resources
+C:\Users\khanjan\documents\visual studio 2015\Projects\Warehouse++\Warehouse++\bin\Debug\Zen.Barcode.Core.dll
+C:\Users\khanjan\documents\visual studio 2015\Projects\Warehouse++\Warehouse++\obj\Debug\Warehouse__.MainMDI.resources
+F:\project_software\warehouse++finalized\Warehouse++\Warehouse++\bin\Debug\Warehouse++.exe.config
+F:\project_software\warehouse++finalized\Warehouse++\Warehouse++\obj\Debug\Warehouse++.exe
+F:\project_software\warehouse++finalized\Warehouse++\Warehouse++\obj\Debug\Warehouse++.pdb
+F:\project_software\warehouse++finalized\Warehouse++\Warehouse++\bin\Debug\proj_database.mdf
+F:\project_software\warehouse++finalized\Warehouse++\Warehouse++\bin\Debug\proj_database_log.ldf
+F:\project_software\warehouse++finalized\Warehouse++\Warehouse++\bin\Debug\Warehouse++.exe
+F:\project_software\warehouse++finalized\Warehouse++\Warehouse++\bin\Debug\Warehouse++.pdb
+F:\project_software\warehouse++finalized\Warehouse++\Warehouse++\bin\Debug\Zen.Barcode.Core.dll
+F:\project_software\warehouse++finalized\Warehouse++\Warehouse++\obj\Debug\Warehouse++.csprojResolveAssemblyReference.cache
+F:\project_software\warehouse++finalized\Warehouse++\Warehouse++\obj\Debug\Warehouse__.MainMDI.resources
+F:\project_software\warehouse++finalized\Warehouse++\Warehouse++\obj\Debug\Warehouse__.New_Order.resources
+F:\project_software\warehouse++finalized\Warehouse++\Warehouse++\obj\Debug\Warehouse__.New_Product.resources
+F:\project_software\warehouse++finalized\Warehouse++\Warehouse++\obj\Debug\Warehouse__.Order_List.resources
+F:\project_software\warehouse++finalized\Warehouse++\Warehouse++\obj\Debug\Warehouse__.Product_List.resources
+F:\project_software\warehouse++finalized\Warehouse++\Warehouse++\obj\Debug\Warehouse__.QRgenerator.resources
+F:\project_software\warehouse++finalized\Warehouse++\Warehouse++\obj\Debug\Warehouse__.Welcome.resources
+F:\project_software\warehouse++finalized\Warehouse++\Warehouse++\obj\Debug\Warehouse__.Login_page.resources
+F:\project_software\warehouse++finalized\Warehouse++\Warehouse++\obj\Debug\Warehouse__.Mainpage.resources
+F:\project_software\warehouse++finalized\Warehouse++\Warehouse++\obj\Debug\Warehouse__.New_Customer.resources
+F:\project_software\warehouse++finalized\Warehouse++\Warehouse++\obj\Debug\Warehouse__.Properties.Resources.resources
+F:\project_software\warehouse++finalized\Warehouse++\Warehouse++\obj\Debug\Warehouse++.csproj.GenerateResource.Cache
+F:\project_software\warehouse++finalized\Warehouse++\Warehouse++\obj\Debug\Warehouse__.Stock_add.resources
+F:\project_software\warehouse++finalized\Warehouse++\Warehouse++\obj\Debug\Warehouse__.NikkiBase.resources
+F:\project_software\warehouse++finalized\Warehouse++\Warehouse++\obj\Debug\Warehouse__.Add_User.resources
+F:\project_software\warehouse++finalized\Warehouse++\Warehouse++\obj\Debug\Warehouse__.Add_Location.resources
+C:\Users\khanjan\Downloads\Warehouse++_v2\Warehouse++\Warehouse++\bin\Debug\Warehouse++.exe.config
+C:\Users\khanjan\Downloads\Warehouse++_v2\Warehouse++\Warehouse++\obj\Debug\Warehouse++.exe
+C:\Users\khanjan\Downloads\Warehouse++_v2\Warehouse++\Warehouse++\obj\Debug\Warehouse++.pdb
+C:\Users\khanjan\Downloads\Warehouse++_v2\Warehouse++\Warehouse++\bin\Debug\proj_database.mdf
+C:\Users\khanjan\Downloads\Warehouse++_v2\Warehouse++\Warehouse++\bin\Debug\proj_database_log.ldf
+C:\Users\khanjan\Downloads\Warehouse++_v2\Warehouse++\Warehouse++\bin\Debug\Warehouse++.exe
+C:\Users\khanjan\Downloads\Warehouse++_v2\Warehouse++\Warehouse++\bin\Debug\Warehouse++.pdb
+C:\Users\khanjan\Downloads\Warehouse++_v2\Warehouse++\Warehouse++\bin\Debug\Zen.Barcode.Core.dll
+C:\Users\khanjan\Downloads\Warehouse++_v2\Warehouse++\Warehouse++\obj\Debug\Warehouse++.csprojResolveAssemblyReference.cache
+C:\Users\khanjan\Downloads\Warehouse++_v2\Warehouse++\Warehouse++\obj\Debug\Warehouse__.Add_Location.resources
+C:\Users\khanjan\Downloads\Warehouse++_v2\Warehouse++\Warehouse++\obj\Debug\Warehouse__.Add_User.resources
+C:\Users\khanjan\Downloads\Warehouse++_v2\Warehouse++\Warehouse++\obj\Debug\Warehouse__.MainMDI.resources
+C:\Users\khanjan\Downloads\Warehouse++_v2\Warehouse++\Warehouse++\obj\Debug\Warehouse__.New_Order.resources
+C:\Users\khanjan\Downloads\Warehouse++_v2\Warehouse++\Warehouse++\obj\Debug\Warehouse__.New_Product.resources
+C:\Users\khanjan\Downloads\Warehouse++_v2\Warehouse++\Warehouse++\obj\Debug\Warehouse__.NikkiBase.resources
+C:\Users\khanjan\Downloads\Warehouse++_v2\Warehouse++\Warehouse++\obj\Debug\Warehouse__.Order_List.resources
+C:\Users\khanjan\Downloads\Warehouse++_v2\Warehouse++\Warehouse++\obj\Debug\Warehouse__.Product_List.resources
+C:\Users\khanjan\Downloads\Warehouse++_v2\Warehouse++\Warehouse++\obj\Debug\Warehouse__.QRgenerator.resources
+C:\Users\khanjan\Downloads\Warehouse++_v2\Warehouse++\Warehouse++\obj\Debug\Warehouse__.Stock_add.resources
+C:\Users\khanjan\Downloads\Warehouse++_v2\Warehouse++\Warehouse++\obj\Debug\Warehouse__.Welcome.resources
+C:\Users\khanjan\Downloads\Warehouse++_v2\Warehouse++\Warehouse++\obj\Debug\Warehouse__.Login_page.resources
+C:\Users\khanjan\Downloads\Warehouse++_v2\Warehouse++\Warehouse++\obj\Debug\Warehouse__.Mainpage.resources
+C:\Users\khanjan\Downloads\Warehouse++_v2\Warehouse++\Warehouse++\obj\Debug\Warehouse__.New_Customer.resources
+C:\Users\khanjan\Downloads\Warehouse++_v2\Warehouse++\Warehouse++\obj\Debug\Warehouse__.Properties.Resources.resources
+C:\Users\khanjan\Downloads\Warehouse++_v2\Warehouse++\Warehouse++\obj\Debug\Warehouse++.csproj.GenerateResource.Cache
+C:\Users\khanjan\Downloads\Warehouse++_v2\Warehouse++\Warehouse++\obj\Debug\Warehouse__.withoutms.resources
+F:\project_software\Warehouse++_v2\Warehouse++\Warehouse++\bin\Debug\Warehouse++.exe.config
+F:\project_software\Warehouse++_v2\Warehouse++\Warehouse++\obj\Debug\Warehouse++.exe
+F:\project_software\Warehouse++_v2\Warehouse++\Warehouse++\obj\Debug\Warehouse++.pdb
+F:\project_software\Warehouse++_v2\Warehouse++\Warehouse++\bin\Debug\proj_database.mdf
+F:\project_software\Warehouse++_v2\Warehouse++\Warehouse++\bin\Debug\proj_database_log.ldf
+F:\project_software\Warehouse++_v2\Warehouse++\Warehouse++\bin\Debug\Warehouse++.exe
+F:\project_software\Warehouse++_v2\Warehouse++\Warehouse++\bin\Debug\Warehouse++.pdb
+F:\project_software\Warehouse++_v2\Warehouse++\Warehouse++\bin\Debug\Zen.Barcode.Core.dll
+F:\project_software\Warehouse++_v2\Warehouse++\Warehouse++\obj\Debug\Warehouse++.csprojResolveAssemblyReference.cache
+F:\project_software\Warehouse++_v2\Warehouse++\Warehouse++\obj\Debug\Warehouse__.Add_Location.resources
+F:\project_software\Warehouse++_v2\Warehouse++\Warehouse++\obj\Debug\Warehouse__.Add_User.resources
+F:\project_software\Warehouse++_v2\Warehouse++\Warehouse++\obj\Debug\Warehouse__.MainMDI.resources
+F:\project_software\Warehouse++_v2\Warehouse++\Warehouse++\obj\Debug\Warehouse__.New_Order.resources
+F:\project_software\Warehouse++_v2\Warehouse++\Warehouse++\obj\Debug\Warehouse__.New_Product.resources
+F:\project_software\Warehouse++_v2\Warehouse++\Warehouse++\obj\Debug\Warehouse__.NikkiBase.resources
+F:\project_software\Warehouse++_v2\Warehouse++\Warehouse++\obj\Debug\Warehouse__.Order_List.resources
+F:\project_software\Warehouse++_v2\Warehouse++\Warehouse++\obj\Debug\Warehouse__.Product_List.resources
+F:\project_software\Warehouse++_v2\Warehouse++\Warehouse++\obj\Debug\Warehouse__.QRgenerator.resources
+F:\project_software\Warehouse++_v2\Warehouse++\Warehouse++\obj\Debug\Warehouse__.Stock_add.resources
+F:\project_software\Warehouse++_v2\Warehouse++\Warehouse++\obj\Debug\Warehouse__.Welcome.resources
+F:\project_software\Warehouse++_v2\Warehouse++\Warehouse++\obj\Debug\Warehouse__.Login_page.resources
+F:\project_software\Warehouse++_v2\Warehouse++\Warehouse++\obj\Debug\Warehouse__.Mainpage.resources
+F:\project_software\Warehouse++_v2\Warehouse++\Warehouse++\obj\Debug\Warehouse__.New_Customer.resources
+F:\project_software\Warehouse++_v2\Warehouse++\Warehouse++\obj\Debug\Warehouse__.Properties.Resources.resources
+F:\project_software\Warehouse++_v2\Warehouse++\Warehouse++\obj\Debug\Warehouse__.withoutms.resources
+F:\project_software\Warehouse++_v2\Warehouse++\Warehouse++\obj\Debug\Warehouse++.csproj.GenerateResource.Cache
+F:\project_software\Warehouse++_v2\Warehouse++\Warehouse++\obj\Debug\Warehouse__.CustomerList.resources
+F:\project_software\Warehouse++_v2\Warehouse++\Warehouse++\obj\Debug\Warehouse__.viewWarehouse.resources
+F:\project_software\Warehouse++_v2\Warehouse++\Warehouse++\obj\Debug\Warehouse__.MDIParent1.resources
+F:\project_software\Warehouse++_v2\Warehouse++\Warehouse++\obj\Debug\Warehouse__.Users_List.resources
+F:\project_software\Warehouse++_v2\Warehouse++\Warehouse++\obj\Debug\Warehouse__.printQr.resources
+F:\project_software\Warehouse++_v2\Warehouse++\Warehouse++\obj\Debug\Warehouse__.testlist.resources
+F:\project_software\Warehouse++_v2\Warehouse++\Warehouse++\obj\Debug\Warehouse__.printLoc.resources

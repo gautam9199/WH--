@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/l_cname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Customer Name : "
+        android:padding="3dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:id="@+id/cname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:padding="3dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_toRightOf="@+id/l_cname"
+        android:layout_toEndOf="@+id/l_cname"
+        android:layout_marginTop="5dp"
+        />
+    <TextView
+        android:id="@+id/l_comname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Company Name : "
+        android:layout_below="@id/l_cname"
+        android:padding="3dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/comname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cname"
+        android:layout_toRightOf="@+id/l_comname"
+        android:layout_toEndOf="@+id/l_comname"
+        android:text="Name"
+        android:padding="3dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <TextView
+        android:id="@+id/pno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/comname"
+        android:layout_toRightOf="@+id/l_pno"
+        android:layout_toEndOf="@+id/l_pno"
+        android:text="Name"
+        android:padding="3dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+
+        android:id="@+id/l_pno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/comname"
+        android:text="Phone No. : "
+        android:padding="3dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/l_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address : "
+        android:layout_below="@id/l_pno"
+        android:padding="3dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pno"
+        android:layout_toRightOf="@+id/l_address"
+        android:layout_toEndOf="@+id/l_address"
+        android:text="Name"
+        android:padding="3dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/address"
+        android:layout_toRightOf="@+id/l_email"
+        android:layout_toEndOf="@+id/l_email"
+        android:text="Name"
+        android:padding="3dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+
+        android:id="@+id/l_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/address"
+        android:text="Email ID : "
+        android:padding="3dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/l_web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Website : "
+        android:layout_below="@id/l_email"
+        android:padding="3dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email"
+        android:layout_toRightOf="@+id/l_web"
+        android:layout_toEndOf="@+id/l_web"
+        android:text="Name"
+        android:padding="3dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+</RelativeLayout>

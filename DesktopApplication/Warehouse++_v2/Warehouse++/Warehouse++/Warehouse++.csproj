@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C6C748AE-4E96-4790-BE9B-8E11F607E0DA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Warehouse__</RootNamespace>
+    <AssemblyName>Warehouse++</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Warehouse__.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Zen.Barcode.Core, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b5ae55aa76d2d9de, processorArchitecture=MSIL">
+      <HintPath>..\packages\Zen.Barcode.Rendering.Framework.3.1.10729.1\lib\Zen.Barcode.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Add_Location.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Location.Designer.cs">
+      <DependentUpon>Add_Location.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_User.Designer.cs">
+      <DependentUpon>Add_User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerList.Designer.cs">
+      <DependentUpon>CustomerList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MainMDI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMDI.Designer.cs">
+      <DependentUpon>MainMDI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIParent1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIParent1.Designer.cs">
+      <DependentUpon>MDIParent1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="New Order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="New Order.Designer.cs">
+      <DependentUpon>New Order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="New Product.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="New Product.Designer.cs">
+      <DependentUpon>New Product.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NikkiBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NikkiBase.Designer.cs">
+      <DependentUpon>NikkiBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Order List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Order List.Designer.cs">
+      <DependentUpon>Order List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="printLoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="printLoc.Designer.cs">
+      <DependentUpon>printLoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="printQr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="printQr.Designer.cs">
+      <DependentUpon>printQr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Product List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Product List.Designer.cs">
+      <DependentUpon>Product List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="proj_databaseDataSet.cs">
+      <DependentUpon>proj_databaseDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="proj_databaseDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>proj_databaseDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="proj_databaseDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>proj_databaseDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QRgenerator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QRgenerator.Designer.cs">
+      <DependentUpon>QRgenerator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Stock_add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stock_add.Designer.cs">
+      <DependentUpon>Stock_add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="testlist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="testlist.Designer.cs">
+      <DependentUpon>testlist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users_List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Users_List.Designer.cs">
+      <DependentUpon>Users_List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewWarehouse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewWarehouse.Designer.cs">
+      <DependentUpon>viewWarehouse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="warehouseDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>warehouseDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="warehouseDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>warehouseDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="warehouseDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>warehouseDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Welcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Welcome.Designer.cs">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login_page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login_page.Designer.cs">
+      <DependentUpon>Login_page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainpage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainpage.Designer.cs">
+      <DependentUpon>Mainpage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="New Customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="New Customer.Designer.cs">
+      <DependentUpon>New Customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="withoutms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="withoutms.Designer.cs">
+      <DependentUpon>withoutms.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Add_Location.resx">
+      <DependentUpon>Add_Location.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_User.resx">
+      <DependentUpon>Add_User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerList.resx">
+      <DependentUpon>CustomerList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMDI.resx">
+      <DependentUpon>MainMDI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIParent1.resx">
+      <DependentUpon>MDIParent1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="New Order.resx">
+      <DependentUpon>New Order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="New Product.resx">
+      <DependentUpon>New Product.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NikkiBase.resx">
+      <DependentUpon>NikkiBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Order List.resx">
+      <DependentUpon>Order List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="printLoc.resx">
+      <DependentUpon>printLoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="printQr.resx">
+      <DependentUpon>printQr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Product List.resx">
+      <DependentUpon>Product List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QRgenerator.resx">
+      <DependentUpon>QRgenerator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stock_add.resx">
+      <DependentUpon>Stock_add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="testlist.resx">
+      <DependentUpon>testlist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users_List.resx">
+      <DependentUpon>Users_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewWarehouse.resx">
+      <DependentUpon>viewWarehouse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Welcome.resx">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login_page.resx">
+      <DependentUpon>Login_page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainpage.resx">
+      <DependentUpon>Mainpage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="New Customer.resx">
+      <DependentUpon>New Customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="withoutms.resx">
+      <DependentUpon>withoutms.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="proj_databaseDataSet.xsc">
+      <DependentUpon>proj_databaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="proj_databaseDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>proj_databaseDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="proj_databaseDataSet.xss">
+      <DependentUpon>proj_databaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="proj_databaseDataSet1.xsc">
+      <DependentUpon>proj_databaseDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="proj_databaseDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>proj_databaseDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="proj_databaseDataSet1.xss">
+      <DependentUpon>proj_databaseDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="warehouseDataSet.xsc">
+      <DependentUpon>warehouseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="warehouseDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>warehouseDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="warehouseDataSet.xss">
+      <DependentUpon>warehouseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="warehouseDataSet1.xsc">
+      <DependentUpon>warehouseDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="warehouseDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>warehouseDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="warehouseDataSet1.xss">
+      <DependentUpon>warehouseDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="warehouseDataSet2.xsc">
+      <DependentUpon>warehouseDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="warehouseDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>warehouseDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="warehouseDataSet2.xss">
+      <DependentUpon>warehouseDataSet2.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="proj_database.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="proj_database_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>proj_database.mdf</DependentUpon>
+    </Content>
+    <None Include="Resources\arrow-306811__340.png" />
+    <None Include="Resources\7adXU.jpg" />
+    <None Include="Resources\FBZq5.png" />
+    <None Include="Resources\logo3.png" />
+    <None Include="Resources\images1.jpg" />
+    <None Include="Resources\images.jpg" />
+    <None Include="Resources\168396361 - Copy1.jpg" />
+    <None Include="Resources\168396361 - Copy.jpg" />
+    <None Include="Resources\button.png" />
+    <None Include="Resources\images.jpeg" />
+    <None Include="Resources\light-blue-tech-geometric-polygonal-motion-background-video-corporate-animation-hd-1920x1080_nde0ffkig__S0000.jpg" />
+    <None Include="Resources\Image1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

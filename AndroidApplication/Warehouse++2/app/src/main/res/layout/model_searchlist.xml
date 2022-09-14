@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/l_pids"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product ID : "
+        android:padding="5dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:id="@+id/pids"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:padding="5dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_toRightOf="@+id/l_pids"
+        android:layout_toEndOf="@+id/l_pids"
+        />
+    <TextView
+        android:id="@+id/l_lids"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location : "
+        android:layout_below="@id/l_pids"
+        android:padding="5dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/lids"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pids"
+        android:layout_toRightOf="@+id/l_lids"
+        android:layout_toEndOf="@+id/l_lids"
+        android:text="Name"
+        android:padding="5dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <TextView
+        android:id="@+id/quans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pids"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:text="Name"
+        android:padding="5dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/l_quans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pids"
+        android:text="Quantity : "
+        android:layout_toLeftOf="@id/quans"
+        android:padding="5dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"/>
+
+</RelativeLayout>
